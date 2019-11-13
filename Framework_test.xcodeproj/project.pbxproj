@@ -30,7 +30,6 @@
 		C6AA3D32237AAEB900058CB6 /* ScannedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CFA237AAEB900058CB6 /* ScannedPageViewController.swift */; platformFilter = ios; };
 		C6AA3D33237AAEB900058CB6 /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CFC237AAEB900058CB6 /* ZoomGestureController.swift */; platformFilter = ios; };
 		C6AA3D34237AAEB900058CB6 /* EditScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CFD237AAEB900058CB6 /* EditScanViewController.swift */; platformFilter = ios; };
-		C6AA3D35237AAEB900058CB6 /* WeScan.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AA3CFE237AAEB900058CB6 /* WeScan.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		C6AA3D36237AAEB900058CB6 /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3D00237AAEB900058CB6 /* EditScanCornerView.swift */; platformFilter = ios; };
 		C6AA3D37237AAEB900058CB6 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3D01237AAEB900058CB6 /* Error.swift */; platformFilter = ios; };
 		C6AA3D38237AAEB900058CB6 /* VisionRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3D02237AAEB900058CB6 /* VisionRectangleDetector.swift */; platformFilter = ios; };
@@ -102,7 +101,6 @@
 		C6AA3CFA237AAEB900058CB6 /* ScannedPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedPageViewController.swift; sourceTree = "<group>"; };
 		C6AA3CFC237AAEB900058CB6 /* ZoomGestureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomGestureController.swift; sourceTree = "<group>"; };
 		C6AA3CFD237AAEB900058CB6 /* EditScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanViewController.swift; sourceTree = "<group>"; };
-		C6AA3CFE237AAEB900058CB6 /* WeScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeScan.h; sourceTree = "<group>"; };
 		C6AA3D00237AAEB900058CB6 /* EditScanCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScanCornerView.swift; sourceTree = "<group>"; };
 		C6AA3D01237AAEB900058CB6 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		C6AA3D02237AAEB900058CB6 /* VisionRectangleDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionRectangleDetector.swift; sourceTree = "<group>"; };
@@ -180,7 +178,6 @@
 				C6AA3CEE237AAEB900058CB6 /* Extensions */,
 				C6AA3CF7237AAEB900058CB6 /* MultiPageSession */,
 				C6AA3CFB237AAEB900058CB6 /* Edit */,
-				C6AA3CFE237AAEB900058CB6 /* WeScan.h */,
 				C6AA3CFF237AAEB900058CB6 /* Common */,
 				C6AA3D08237AAEB900058CB6 /* Assets */,
 				C6AA3D15237AAEB900058CB6 /* Protocols */,
@@ -308,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AA3C5D237AAC5600058CB6 /* Framework_test.h in Headers */,
-				C6AA3D35237AAEB900058CB6 /* WeScan.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
