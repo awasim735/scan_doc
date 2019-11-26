@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C69901B4237D349C00AA8268 /* FocusRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69901B3237D349C00AA8268 /* FocusRectangleView.swift */; };
 		C6AA3C5D237AAC5600058CB6 /* Framework_test.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AA3C5B237AAC5600058CB6 /* Framework_test.h */; platformFilter = ios; settings = {ATTRIBUTES = (Public, ); }; };
 		C6AA3D1E237AAEB900058CB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6AA3CDE237AAEB900058CB6 /* Localizable.strings */; };
 		C6AA3D1F237AAEB900058CB6 /* ImageScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CE1237AAEB900058CB6 /* ImageScannerController.swift */; platformFilter = ios; };
@@ -16,7 +17,6 @@
 		C6AA3D23237AAEB900058CB6 /* ScannedItemRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CE8237AAEB900058CB6 /* ScannedItemRenderer.swift */; platformFilter = ios; };
 		C6AA3D24237AAEB900058CB6 /* PDFCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CE9237AAEB900058CB6 /* PDFCreator.swift */; platformFilter = ios; };
 		C6AA3D25237AAEB900058CB6 /* DeviceOrientationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CEA237AAEB900058CB6 /* DeviceOrientationHelper.swift */; platformFilter = ios; };
-		C6AA3D26237AAEB900058CB6 /* FocusRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CEB237AAEB900058CB6 /* FocusRectangleView.swift */; platformFilter = ios; };
 		C6AA3D27237AAEB900058CB6 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CEC237AAEB900058CB6 /* ScannerViewController.swift */; platformFilter = ios; };
 		C6AA3D28237AAEB900058CB6 /* AVCaptureVideoOrientation+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CEF237AAEB900058CB6 /* AVCaptureVideoOrientation+Utils.swift */; platformFilter = ios; };
 		C6AA3D29237AAEB900058CB6 /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CF0237AAEB900058CB6 /* CGPoint+Utils.swift */; platformFilter = ios; };
@@ -55,6 +55,8 @@
 		C6AA3D4D237AAEB900058CB6 /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3D1C237AAEB900058CB6 /* CaptureSession.swift */; platformFilter = ios; };
 		C6AA3D4E237AAEB900058CB6 /* CaptureSession+Focus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3D1D237AAEB900058CB6 /* CaptureSession+Focus.swift */; platformFilter = ios; };
 		C6AA3D4F237AAF3300058CB6 /* CGAffineTransform+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA3CF2237AAEB900058CB6 /* CGAffineTransform+Utils.swift */; platformFilter = ios; };
+		C6B04FB8238D7E4300FF662A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B04FB7238D7E4300FF662A /* ViewController.swift */; };
+		C6B04FBA238D7F5E00FF662A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B04FB9238D7F5E00FF662A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C69901B3237D349C00AA8268 /* FocusRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusRectangleView.swift; sourceTree = "<group>"; };
 		C6AA3C58237AAC5600058CB6 /* Framework_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AA3C5B237AAC5600058CB6 /* Framework_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework_test.h; sourceTree = "<group>"; };
 		C6AA3C5C237AAC5600058CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +88,6 @@
 		C6AA3CE8237AAEB900058CB6 /* ScannedItemRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedItemRenderer.swift; sourceTree = "<group>"; };
 		C6AA3CE9237AAEB900058CB6 /* PDFCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFCreator.swift; sourceTree = "<group>"; };
 		C6AA3CEA237AAEB900058CB6 /* DeviceOrientationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceOrientationHelper.swift; sourceTree = "<group>"; };
-		C6AA3CEB237AAEB900058CB6 /* FocusRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusRectangleView.swift; sourceTree = "<group>"; };
 		C6AA3CEC237AAEB900058CB6 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		C6AA3CED237AAEB900058CB6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C6AA3CEF237AAEB900058CB6 /* AVCaptureVideoOrientation+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoOrientation+Utils.swift"; sourceTree = "<group>"; };
@@ -128,7 +130,8 @@
 		C6AA3D1B237AAEB900058CB6 /* CaptureSession+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CaptureSession+Orientation.swift"; sourceTree = "<group>"; };
 		C6AA3D1C237AAEB900058CB6 /* CaptureSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSession.swift; sourceTree = "<group>"; };
 		C6AA3D1D237AAEB900058CB6 /* CaptureSession+Focus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CaptureSession+Focus.swift"; sourceTree = "<group>"; };
-		C6AA3D55237AB98900058CB6 /* WeScan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeScan.framework; path = "../../Library/Developer/Xcode/DerivedData/WeScan-enojzxqxajmhdtclnftomshqoiwf/Build/Products/Debug-iphonesimulator/WeScan.framework"; sourceTree = "<group>"; };
+		C6B04FB7238D7E4300FF662A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6B04FB9238D7F5E00FF662A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,10 +198,12 @@
 				C6AA3CE6237AAEB900058CB6 /* CaptureSessionManager.swift */,
 				C6AA3CE7237AAEB900058CB6 /* ShutterButton.swift */,
 				C6AA3CE8237AAEB900058CB6 /* ScannedItemRenderer.swift */,
+				C69901B3237D349C00AA8268 /* FocusRectangleView.swift */,
 				C6AA3CE9237AAEB900058CB6 /* PDFCreator.swift */,
 				C6AA3CEA237AAEB900058CB6 /* DeviceOrientationHelper.swift */,
-				C6AA3CEB237AAEB900058CB6 /* FocusRectangleView.swift */,
 				C6AA3CEC237AAEB900058CB6 /* ScannerViewController.swift */,
+				C6B04FB9238D7F5E00FF662A /* Main.storyboard */,
+				C6B04FB7238D7E4300FF662A /* ViewController.swift */,
 			);
 			path = Scan;
 			sourceTree = "<group>";
@@ -292,7 +297,6 @@
 		C6AA3D50237AB21300058CB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6AA3D55237AB98900058CB6 /* WeScan.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -381,6 +385,7 @@
 				C6AA3D44237AAEB900058CB6 /* flash@3x.png in Resources */,
 				C6AA3D41237AAEB900058CB6 /* flashUnavailable@2x.png in Resources */,
 				C6AA3D40237AAEB900058CB6 /* flash@2x.png in Resources */,
+				C6B04FBA238D7F5E00FF662A /* Main.storyboard in Resources */,
 				C6AA3D3C237AAEB900058CB6 /* flash.png in Resources */,
 				C6AA3D3F237AAEB900058CB6 /* rotate@2x.png in Resources */,
 				C6AA3D3D237AAEB900058CB6 /* rotate@3x.png in Resources */,
@@ -398,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AA3D28237AAEB900058CB6 /* AVCaptureVideoOrientation+Utils.swift in Sources */,
+				C69901B4237D349C00AA8268 /* FocusRectangleView.swift in Sources */,
 				C6AA3D30237AAEB900058CB6 /* MultiPageScanSession.swift in Sources */,
 				C6AA3D25237AAEB900058CB6 /* DeviceOrientationHelper.swift in Sources */,
 				C6AA3D20237AAEB900058CB6 /* RectangleFeaturesFunnel.swift in Sources */,
@@ -406,7 +412,6 @@
 				C6AA3D22237AAEB900058CB6 /* ShutterButton.swift in Sources */,
 				C6AA3D4B237AAEB900058CB6 /* CaptureSession+Flash.swift in Sources */,
 				C6AA3D39237AAEB900058CB6 /* CIRectangleDetector.swift in Sources */,
-				C6AA3D26237AAEB900058CB6 /* FocusRectangleView.swift in Sources */,
 				C6AA3D3B237AAEB900058CB6 /* Quadrilateral.swift in Sources */,
 				C6AA3D3A237AAEB900058CB6 /* QuadrilateralView.swift in Sources */,
 				C6AA3D2A237AAEB900058CB6 /* CIImage+Utils.swift in Sources */,
@@ -422,6 +427,7 @@
 				C6AA3D2F237AAEB900058CB6 /* UIImage+Utils.swift in Sources */,
 				C6AA3D4D237AAEB900058CB6 /* CaptureSession.swift in Sources */,
 				C6AA3D37237AAEB900058CB6 /* Error.swift in Sources */,
+				C6B04FB8238D7E4300FF662A /* ViewController.swift in Sources */,
 				C6AA3D2E237AAEB900058CB6 /* UIImage+Orientation.swift in Sources */,
 				C6AA3D36237AAEB900058CB6 /* EditScanCornerView.swift in Sources */,
 				C6AA3D21237AAEB900058CB6 /* CaptureSessionManager.swift in Sources */,
